@@ -1,0 +1,151 @@
+/*CSS Reset*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('images/image.jpg');    
+}
+.left{      
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.left div{
+    text-align: center;
+    color: rgb(176, 184, 238);
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.left img{
+    width: 90px;
+    filter: invert(100%);
+    margin: auto 15px;
+}
+.mid{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+.right{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 1px 8px ;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    margin: 7px 8px;
+    background-color: black;
+    color: white;
+    padding: 6px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    }
+.btn:hover{
+    background-color: rgba(128, 128, 128, 0.72);
+}
+.rightbox{
+    position: absolute;
+    right: 10px;
+    width: 30%;
+    height: 55%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rightbox h2{
+    font-size: 47px;
+    text-align: left;
+    color: white;
+    padding: 1px;
+    margin: -220px 170px;
+    width: 200px;
+}
+.container{
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    margin: 10px 50px;
+    padding: 20px;
+    width: 30%;
+    height: 420px;
+    border-radius: 30px;
+} 
+.container h1{
+    font-size: 30px;
+    text-align: center;
+}
+.container h3{
+    margin: 2px 55px;
+    color: rgb(23, 235, 23);
+    font-family: 'Abril Fatface', cursive;
+} 
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.form-group textarea{
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}  
+.container button{
+    width: 75%;
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.case h3{
+    color: white;
+    margin: 70px 70px;
+    font-size: 35px;
+    width: 320px;
+    height: 80px;
+    text-align: center;
+    font-family: fantasy;
+    padding: 20px;
+    border-radius: 60px;
+    background-color: rgb(23, 235, 23);
+    color: rgb(0, 0, 0);
+}
